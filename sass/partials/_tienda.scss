@@ -1,0 +1,53 @@
+
+.tienda{
+    text-align: center;
+    font-size: 4rem;
+    background-color: #FFF5B2;
+}
+
+.articulos{
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+.ar{
+    font-size: 2rem;
+    margin-top: 30px;
+    width: 250px;
+    margin-left: 40px;
+    border: 1.5px solid black;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.productos{
+    width: 250px;
+    height: 250px;
+}
+
+.cont-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+   height: 40px;
+   width: 100px;
+   border: none;
+   border-radius: 20%;
+   background-color: #92c1ec;
+    
+}
+input:active{
+    border: 2px solid blueviolet;
+}

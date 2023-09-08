@@ -1,0 +1,267 @@
+
+@media(max-width: 480px){
+    html{
+        font-size: 62.5%;
+        font-family:'Shadows Into Light', cursive;
+        background-image: url(../img/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
+    
+    /*
+    #EAA4E1 violeta
+    #FFC8DD rosa claro
+    #E11A63 fucsia
+    #92c1ec celelste claro
+    #FFF5B2 vainilla
+    */
+    
+    
+    /* header */
+    header{
+        height: 35px;
+        background-color: rgb(247,247,250);
+        background: linear-gradient(90deg, rgba(247,247,250,1) 0%, rgba(181,86,169,1) 37%, rgba(255,47,198,1) 93%);
+        position: sticky;
+        top: 0px;
+        width: 100%;
+    }
+    
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* main */
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+    h1{
+        text-align: center;
+        color: #E11A63;
+        font-size: 3rem;
+        margin-top: 20px;
+        
+    }
+    h2{
+        text-align: center;
+        color: black;
+        font-size: 2rem;
+        margin-top: 20px;
+        padding: 40px;
+    }
+    
+    h3{
+        margin-top: 25px;
+        color: black;
+        background-color: #92c1ec;
+        font-size: 2.5rem;
+        
+    }
+    .prod{
+        text-align: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        font-size: 2rem;
+       /* width: 90vw;*/
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    .beneficios-velas{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .beneficios-difu{
+        margin-top: 10px;
+    }
+    .beneficios-res{
+        margin-top: 10px;
+    }
+    .img-res{
+        padding-block-end: 20px;
+    }
+    
+    
+    
+    
+    /*tienda media*/
+    
+    .tienda{
+        text-align: center;
+        font-size: 3rem;
+        background-color: #FFF5B2;
+    }
+    
+    .articulos{
+        margin-top: 40px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+       
+        
+    }
+    
+    
+    .ar{
+        font-size: 2rem;
+        margin-top: 10px;
+        width: 100px;
+        margin-left: 30px;
+        border: 0.5px solid black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .cont-button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    input{
+       height: 15px;
+       width: 55px;
+       border: none;
+       border-radius: 20%;
+       background-color: #92c1ec;
+        
+    }
+    
+    /*formas de pago*/
+    
+    .formas-de-pago{
+        background-color: #FFF5B2;
+    }
+    
+    .f{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    /*ubicacion media*/
+    .ubi{
+        background-color: #FFF5B2;
+    }
+    .ubic{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .ubica{
+        margin: 20px;
+        font-size: 2rem;
+    }
+    
+    /*contacto media*/
+    .con{
+        background-color: #FFF5B2;
+    }
+    .cont{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    
+    
+    .productos{
+        width: 100px;
+        height: 100px;
+    }
+    
+    /* footer media*/
+    
+    .footer{
+        height: 50px;
+        margin-top: 50px;
+        background-color: rgb(247,247,250);
+        background: linear-gradient(90deg, rgba(247,247,250,1) 0%, rgba(181,86,169,1) 37%, rgba(255,47,198,1) 93%);
+        position: sticky;
+        top: 0px;
+        
+    }
+    
+    .container{
+        height: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-template-rows: 2fr 1fr 1fr;
+        grid-template-areas:
+        "f1 f2 f3 f4"
+        "f5 f5 f5 f5"
+        "f5 f5 f5 f5";
+    }
+    
+    .if{
+        width: 20px;
+        height: 20px;
+    }
+    .ifd{
+        width: 10px;
+        height: 10px;
+    }
+    .tf2{
+        font-size: 0.7rem;
+    }
+    .tf3{
+        font-size: 1.2rem;
+    }
+    
+    .f1{
+        grid-area: f1;
+       
+    }
+    .f2{
+        grid-area: f2;
+       
+    }
+    .f3{
+        grid-area: f3;
+    
+    
+    }
+    .f4{
+        grid-area: f4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .f5{
+        grid-area: f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    }
+    
