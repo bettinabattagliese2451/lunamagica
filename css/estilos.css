@@ -5,8 +5,6 @@
 
 html{
     font-size: 62.5%;
-    font-family:'Shadows Into Light', cursive;
-    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -24,6 +22,7 @@ html{
 /* header */
 header{
     height: 100%;
+    font-family:'Shadows Into Light', cursive;
     background-color: rgb(247,247,250);
     background: linear-gradient(90deg, rgba(247,247,250,1) 0%, rgba(181,86,169,1) 37%, rgba(255,47,198,1) 93%);
     position: sticky;
@@ -354,6 +353,7 @@ h2{
     font-size: 2rem;
     margin-top: 20px;
     padding: 40px;
+    
 }
 
 h3{
