@@ -280,7 +280,6 @@ input:active{
 html{
     font-size: 62.5%;
     font-family:'Shadows Into Light', cursive;
-    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
