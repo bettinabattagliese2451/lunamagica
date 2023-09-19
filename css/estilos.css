@@ -1,18 +1,473 @@
-/* Error: expected ";".
- *   ,
- * 1 | @use 'variables'
- *   |                 ^
- *   '
- *   sass\partials\_index.scss 1:17  @use
- *   sass\main.scss 1:1              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected \";\".\a   \2577 \a 1 \2502  @use 'variables'\d\a   \2502                  ^\a   \2575 \a   sass\\partials\\_index.scss 1:17  @use\a   sass\\main.scss 1:1              root stylesheet";
+/*
+#EAA4E1 violeta
+#FFC8DD rosa claro
+#E11A63 fucsia
+#92c1ec celelste claro
+#FFF5B2 vainilla
+*/
+* {
+  margin: 0%;
+  padding: 0%;
 }
+
+html {
+  font-size: 62.5%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+/* header */
+header {
+  height: 100%;
+  font-family: "Shadows Into Light", cursive;
+  background-color: rgb(247, 247, 250);
+  background: linear-gradient(90deg, rgb(247, 247, 250) 0%, rgb(181, 86, 169) 37%, rgb(255, 47, 198) 93%);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.carousel-item {
+  max-height: 600px;
+  max-width: 500px;
+  margin-top: 60px;
+  margin-left: 400px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: #E11A63;
+  font-size: 5rem;
+  margin-top: 80px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  margin-top: 50px;
+  padding: 80px;
+}
+
+h3 {
+  margin-top: 50px;
+  color: black;
+  background-color: #92c1ec;
+  font-size: 3rem;
+}
+
+.prod {
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  width: 90vw;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.beneficios-velas {
+  margin-top: 30px;
+}
+
+.beneficios-difu {
+  margin-top: 30px;
+}
+
+.beneficios-res {
+  margin-top: 30px;
+}
+
+.img-res {
+  padding-block-end: 40px;
+}
+
+.tienda {
+  text-align: center;
+  font-size: 4rem;
+  background-color: #FFF5B2;
+  align-content: center;
+}
+
+.articulos {
+  margin-top: 100px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ar {
+  font-size: 2rem;
+  margin-top: 30px;
+  width: 250px;
+  margin-left: 40px;
+  border: 1.5px solid black;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productos {
+  width: 250px;
+  height: 250px;
+}
+
+.cont-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 20%;
+  background-color: #92c1ec;
+}
+
+input:active {
+  border: 2px solid blueviolet;
+}
+
+.formas-de-pago {
+  background-color: #FFF5B2;
+}
+
+.f {
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.con {
+  background-color: #FFF5B2;
+}
+
+.cont {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.ubi {
+  background-color: #FFF5B2;
+}
+
+.ubic {
+  margin-bottom: 60px;
+  margin-left: 100px;
+}
+
+.ubica {
+  font-size: 4rem;
+  margin: 100px;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 100px;
+  background-color: rgb(247, 247, 250);
+  background: linear-gradient(90deg, rgb(247, 247, 250) 0%, rgb(181, 86, 169) 37%, rgb(255, 47, 198) 93%);
+  position: sticky;
+  top: 0px;
+}
+
+.container {
+  height: 100px;
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-areas: "f1 f2 f3 f4" "f5 f5 f5 f5" "f5 f5 f5 f5";
+}
+
+.if {
+  width: 50px;
+  height: 50px;
+}
+
+.ifd {
+  width: 20px;
+  height: 20px;
+}
+
+.tf2 {
+  font-size: 1rem;
+}
+
+.tf3 {
+  font-size: 1.8rem;
+}
+
+.f1 {
+  grid-area: f1;
+}
+
+.f2 {
+  grid-area: f2;
+}
+
+.f3 {
+  grid-area: f3;
+}
+
+.f4 {
+  grid-area: f4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.f5 {
+  grid-area: f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 62.5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  /*
+  #EAA4E1 violeta
+  #FFC8DD rosa claro
+  #E11A63 fucsia
+  #92c1ec celelste claro
+  #FFF5B2 vainilla
+  */
+  /* header */
+  header {
+    height: 35px;
+    font-family: "Shadows Into Light", cursive;
+    background-color: rgb(247, 247, 250);
+    background: linear-gradient(90deg, rgb(247, 247, 250) 0%, rgb(181, 86, 169) 37%, rgb(255, 47, 198) 93%);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  .carousel-item {
+    max-height: 200px;
+    max-width: 170px;
+    margin-top: 17px;
+    margin-left: 150px;
+  }
+  /* main */
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  h1 {
+    text-align: center;
+    color: #E11A63;
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  h2 {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    margin-top: 20px;
+    padding: 40px;
+  }
+  h3 {
+    margin-top: 25px;
+    color: black;
+    background-color: #92c1ec;
+    font-size: 2.5rem;
+  }
+  .prod {
+    text-align: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .beneficios-velas {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .beneficios-difu {
+    margin-top: 10px;
+  }
+  .beneficios-res {
+    margin-top: 10px;
+  }
+  .img-res {
+    padding-block-end: 20px;
+  }
+  /*tienda media*/
+  .tienda {
+    text-align: center;
+    font-size: 3rem;
+    background-color: #FFF5B2;
+  }
+  .articulos {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ar {
+    font-size: 2rem;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 30px;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  .cont-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    height: 15px;
+    width: 55px;
+    border: none;
+    border-radius: 20%;
+    background-color: #92c1ec;
+  }
+  /*formas de pago*/
+  .formas-de-pago {
+    background-color: #FFF5B2;
+  }
+  .f {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  /*ubicacion media*/
+  .ubi {
+    background-color: #FFF5B2;
+  }
+  .ubic {
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .ubica {
+    margin: 20px;
+    font-size: 2rem;
+  }
+  /*contacto media*/
+  .con {
+    background-color: #FFF5B2;
+  }
+  .cont {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .productos {
+    width: 100px;
+    height: 100px;
+  }
+  /* footer media*/
+  .footer {
+    height: 50px;
+    margin-top: 50px;
+    background-color: rgb(247, 247, 250);
+    background: linear-gradient(90deg, rgb(247, 247, 250) 0%, rgb(181, 86, 169) 37%, rgb(255, 47, 198) 93%);
+    position: sticky;
+    top: 0px;
+  }
+  .container {
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas: "f1 f2 f3 f4" "f5 f5 f5 f5" "f5 f5 f5 f5";
+  }
+  .if {
+    width: 20px;
+    height: 20px;
+  }
+  .ifd {
+    width: 10px;
+    height: 10px;
+  }
+  .tf2 {
+    font-size: 0.7rem;
+  }
+  .tf3 {
+    font-size: 1.2rem;
+  }
+  .f1 {
+    grid-area: f1;
+  }
+  .f2 {
+    grid-area: f2;
+  }
+  .f3 {
+    grid-area: f3;
+  }
+  .f4 {
+    grid-area: f4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .f5 {
+    grid-area: f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
