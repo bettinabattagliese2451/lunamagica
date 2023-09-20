@@ -383,7 +383,7 @@ input:active {
     width: 55px;
     border: none;
     border-radius: 20%;
-    background-color: #92c1ec;
+    background-color: #FFC8DD;
   }
   /*formas de pago*/
   .formas-de-pago {
@@ -393,6 +393,7 @@ input:active {
     font-size: 20px;
     margin-top: 30px;
   }
+  
   /*ubicacion media*/
   .ubi {
     background-color: #FFF5B2;

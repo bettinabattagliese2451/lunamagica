@@ -1,17 +1,9 @@
 @use 'variables';
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
 html{
     font-size: 62.5%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+   /* background-repeat: no-repeat;
+    background-size: contain;*/
 }
-
-
 
 /* header */
 header{
@@ -42,10 +34,9 @@ a{
 
 .carousel-item {
     max-height: 600px;
-    max-width: 500px;
+    max-width: 200px;
     margin-top: 60px;
-    margin-left: 400px;
-    
+    margin-left: auto;
 }
 
 .logo{
@@ -65,12 +56,12 @@ h2{
     text-align: center;
     color: black;
     font-size: variables.$size3;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 80px;
 }
 
 h3{
-    margin-top: 50px;
+    margin-top: 30px;
     color: black;
     background-color: #92c1ec;
     font-size: variables.$size3;
@@ -82,26 +73,27 @@ h3{
     display: flex;
     flex-wrap: wrap;
     font-size: variables.$size3/2;
-    width: 90vw;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Cambia flex-direction a row */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
 }
-
 .img {
     width: 250px;
     height: 250px;
     margin-top: 50px;
 }
-.beneficios-velas{
+
+
+.beneficios{
     margin-top: 30px;
 }
-.beneficios-difu{
-    margin-top: 30px;
-}
-.beneficios-res{
-    margin-top: 30px;
-}
-.img-res{
-    padding-block-end: 40px;
+
+.produc{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: variables.$size3/2;
+    flex-direction: row; /* Cambia flex-direction a row */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
 }
