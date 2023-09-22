@@ -7,8 +7,8 @@
 }
 
 .articulos{
-    margin-top: 50px;
-    padding: 70px;
+    margin-top: 20px;
+    padding: 150px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -17,11 +17,11 @@
 
 .ar{
     font-size: 2rem;
-    margin-top: 30px;
     width: 250px;
+    margin-top: 15px;
     margin-left: 40px;
     border: 1.5px solid black;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +45,7 @@ input{
    width: 100px;
    border: none;
    border-radius: 20%;
-   background-color: #92c1ec;
+   background-color: #FFC8DD;
     
 }
 input:active{

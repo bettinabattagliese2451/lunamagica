@@ -1,7 +1,10 @@
 
 @media(max-width: 480px){
     
-   
+*{
+    margin-left: 0;
+}
+
     html{
         font-size: 62.5%;
         background-repeat: no-repeat;
@@ -116,23 +119,27 @@
     }
     
     .articulos{
-        margin-top: 40px;
-        padding: 100px;
+        margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
+        align-content: center;
     }
     
     
     .ar{
         font-size: 1rem;
+        width: 250px;
         margin-top: 10px;
-        width: 150px;
-        margin-left: 40px;
         border: 0.5px solid black;
+        font-size: 1rem;
         display: flex;
         flex-direction: column;
     }
-    
+    .productos{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
     
     .cont-button{
         width: 100%;
@@ -146,7 +153,7 @@
        width: 55px;
        border: none;
        border-radius: 20%;
-       background-color: #92c1ec;
+       background-color: #FFC8DD;
         
     }
     
@@ -160,6 +167,13 @@
         font-size: 20px;
         margin-top: 30px;
     }
+    .formulario{
+        max-width: 200px; /* Establece el ancho máximo del formulario en 400px */
+        margin: 0 auto; /* Centra el formulario en el centro de la página */
+    }
+    .form-label{
+        font-size: 2rem;
+      }
     
     /*ubicacion media*/
     .ubi{
@@ -168,10 +182,16 @@
     .ubic{
         margin-bottom: 30px;
         margin-left: 20px;
+        font-size: 1.5rem;
     }
     .ubica{
         margin: 20px;
         font-size: 2rem;
+    }
+    .ub{
+        width: 80%;
+        height: 200px;
+        margin-left: 40px;
     }
     
     /*contacto media*/
@@ -203,7 +223,8 @@
     }
     
     .container{
-        height: 40px;
+        margin-left: 0;
+        padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 2fr;
         grid-template-rows: 2fr 1fr 1fr;
@@ -212,6 +233,7 @@
         "f5 f5 f5 f5"
         "f5 f5 f5 f5";
     }
+    
     
     .if{
         width: 20px;
@@ -225,7 +247,7 @@
         font-size: 0.7rem;
     }
     .tf3{
-        font-size: 1.2rem;
+        font-size: 0.7rem;
     }
     
     .f1{

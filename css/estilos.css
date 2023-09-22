@@ -121,23 +121,24 @@ h3 {
 }
 
 .articulos {
-  margin-top: 100px;
+  margin-top: 10px;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
 }
 
-.ar {
-  font-size: 2rem;
-  margin-top: 30px;
-  width: 250px;
-  margin-left: 40px;
-  border: 1.5px solid black;
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
+.ar{
+    font-size: 2rem;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 40px;
+    border: 1.5px solid black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
-
+  
 .productos {
   width: 250px;
   height: 250px;
@@ -155,7 +156,7 @@ input {
   width: 100px;
   border: none;
   border-radius: 20%;
-  background-color: #92c1ec;
+  background-color: #FFC8DD;
 }
 
 input:active {
@@ -170,7 +171,13 @@ input:active {
   font-size: 40px;
   margin-top: 60px;
 }
-
+.formulario{
+  max-width: 800px; /* Establece el ancho máximo del formulario en 400px */
+  margin: 0 auto; /* Centra el formulario en el centro de la página */
+}
+.form-label{
+  font-size: 2rem;
+}
 .con {
   background-color: #FFF5B2;
 }
@@ -185,13 +192,19 @@ input:active {
 }
 
 .ubic {
-  margin-bottom: 60px;
-  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 3rem;
 }
 
 .ubica {
   font-size: 4rem;
   margin: 100px;
+}
+.ub{
+  width: 80%;
+  height: 500px;
+  margin-left: 120px;
 }
 
 .footer {
@@ -358,20 +371,26 @@ input:active {
     background-color: #FFF5B2;
   }
   .articulos {
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
   }
   .ar {
     font-size: 2rem;
+    width: 250px;
+    margin-left: 1rem;
     margin-top: 10px;
-    width: 100px;
-    margin-left: 30px;
     border: 0.5px solid black;
     display: flex;
     flex-direction: column;
   }
+  .productos{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
   .cont-button {
     width: 100%;
     display: flex;
@@ -389,6 +408,15 @@ input:active {
   .formas-de-pago {
     background-color: #FFF5B2;
   }
+
+  .formulario{
+    max-width: 200px; /* Establece el ancho máximo del formulario en 400px */
+    margin: 0 auto; /* Centra el formulario en el centro de la página */
+}
+
+.form-label{
+  font-size: 2rem;
+}
   .f {
     font-size: 20px;
     margin-top: 30px;
@@ -401,11 +429,18 @@ input:active {
   .ubic {
     margin-bottom: 30px;
     margin-left: 20px;
+    font-size: 1.5rem;
   }
   .ubica {
     margin: 20px;
     font-size: 2rem;
   }
+
+  .ub{
+    width: 80%;
+    height: 200px;
+    margin-left: 40px;
+}
   /*contacto media*/
   .con {
     background-color: #FFF5B2;
@@ -428,11 +463,23 @@ input:active {
     top: 0px;
   }
   .container {
-    height: 40px;
+   /* height: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr;
     grid-template-rows: 2fr 1fr 1fr;
-    grid-template-areas: "f1 f2 f3 f4" "f5 f5 f5 f5" "f5 f5 f5 f5";
+    grid-template-areas: "f1 f2 f3 f4" "f5 f5 f5 f5" "f5 f5 f5 f5";*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+   grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-areas:
+    "f1 f2 f3 f4"
+    "f5 f5 f5 f5"
+    "f5 f5 f5 f5";
   }
   .if {
     width: 20px;
