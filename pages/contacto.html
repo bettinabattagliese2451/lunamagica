@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <!--animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!--boostrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!--css main-->
     <link rel="stylesheet" href="../css/estilos.css">
 
@@ -35,33 +37,19 @@
      </header>
     <main>
 
-
-        <h1 class="con"> Contacto</h1>
-        <form>
-            <h2> Deja tu mensaje y te contestaremos a la brevedad: </h2>
-
-            
-            <div class="cont">
-                <div>
-                    <input type="text" required placeholder="Nombre...">
-                    
-                </div>
-                <br>
-                <div>
-                    <input type="email" name="" id="" placeholder="Mail">
-                </div>
-                <br>
-                <div>
-                    <textarea name="" id="" required placeholder="Deje su mensaje..." cols="30" rows="10"></textarea>
-                </div>
-                <br>
-                <div>
-                    <input type="submit" value=" Enviar ">
-                </div>
-
+        <section class="formulario">
+            <h2> Deje tu mensaje y contestaremos a la brevedad: </h2>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Ingrese su Mail:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-
-        </form>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Ingrese su mensaje:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="cont-button">
+                <input type="button" value="Enviar">
+        </section>
     </main>
     <footer class="footer">
         <div class="container">
@@ -84,5 +72,7 @@
             </div>
         </div>
     </footer>
+     <!--boostrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

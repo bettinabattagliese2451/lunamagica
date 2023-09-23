@@ -129,6 +129,7 @@
     .ar{
         font-size: 1rem;
         width: 250px;
+        height: 340px;
         margin-top: 10px;
         border: 0.5px solid black;
         font-size: 1rem;
@@ -136,9 +137,10 @@
         flex-direction: column;
     }
     .productos{
-        width: 250px;
-        height: 250px;
-        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        margin: 40px;
+        margin-left: 80px;
     }
     
     .cont-button{
