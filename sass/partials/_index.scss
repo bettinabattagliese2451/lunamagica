@@ -1,8 +1,6 @@
 @use 'variables';
 html{
     font-size: 62.5%;
-   /* background-repeat: no-repeat;
-    background-size: contain;*/
 }
 
 /* header */
@@ -33,11 +31,12 @@ a{
 
 
 .carousel-item {
-    max-height: 600px;
-    max-width: 200px;
     margin-top: 60px;
-    margin-left: auto;
+    height: 550px;
+    max-width: 450px;
+    margin-left: 35%;
 }
+
 
 .logo{
     width: 100px;

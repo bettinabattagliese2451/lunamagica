@@ -53,7 +53,8 @@
         max-height: 200px;
         max-width: 140px;
         margin-top: 17px;
-        margin-left: auto;
+        margin-left: 110px;
+        
     }
     
     
@@ -90,9 +91,11 @@
     
     .prod {
         text-align: center;
+        margin-top: 30px;
+        margin: 20px;
         display: flex;
         flex-wrap: wrap;
-        font-size: 2rem;
+        font-size: 1rem;
         flex-direction: row; /* Cambia flex-direction a row */
         justify-content: center; /* Centra los elementos horizontalmente */
         align-items: center; /* Centra los elementos verticalmente */
@@ -136,23 +139,25 @@
         display: flex;
         flex-direction: column;
     }
+    
     .productos{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         margin: 40px;
         margin-left: 80px;
-    }
+      }
     
     .cont-button{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
     
     input{
-       height: 15px;
-       width: 55px;
+       height: 30px;
+       width: 80px;
        border: none;
        border-radius: 20%;
        background-color: #FFC8DD;

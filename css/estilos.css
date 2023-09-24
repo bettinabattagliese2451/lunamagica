@@ -12,9 +12,6 @@
 
 html {
   font-size: 62.5%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
 }
 
 /* header */
@@ -45,12 +42,16 @@ a {
   font-size: 3rem;
 }
 
+
 .carousel-item {
-  max-height: 600px;
-  max-width: 500px;
-  margin-top: 60px;
-  margin-left: 400px;
+    margin-top: 60px;
+    height: 550px;
+    max-width: 450px;
+    margin-left: 35%;
 }
+
+
+  
 
 .logo {
   width: 100px;
@@ -82,13 +83,13 @@ h3 {
 .prod {
   text-align: center;
   margin-top: 60px;
+  margin: 50px;
   display: flex;
   flex-wrap: wrap;
-  font-size: 1.5rem;
-  width: 90vw;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
+  font-size: 3rem;
+  flex-direction: row; /* Cambia flex-direction a row */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
 }
 
 .img {
@@ -97,15 +98,7 @@ h3 {
   margin-top: 50px;
 }
 
-.beneficios-velas {
-  margin-top: 30px;
-}
-
-.beneficios-difu {
-  margin-top: 30px;
-}
-
-.beneficios-res {
+.beneficios{
   margin-top: 30px;
 }
 
@@ -313,7 +306,7 @@ input:active {
     max-height: 200px;
     max-width: 170px;
     margin-top: 17px;
-    margin-left: 150px;
+    margin-left: 110px;
   }
   /* main */
   .logo {
@@ -341,27 +334,22 @@ input:active {
   }
   .prod {
     text-align: center;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    font-size: 2rem;
-    margin-left: 5px;
+    margin-top: 30px;
+    margin: 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    flex-direction: row; /* Cambia flex-direction a row */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
   }
   .img {
     width: 100px;
     height: 100px;
     margin-top: 20px;
   }
-  .beneficios-velas {
-    margin-top: 10px;
-    width: 100%;
-  }
-  .beneficios-difu {
-    margin-top: 10px;
-  }
-  .beneficios-res {
-    margin-top: 10px;
+  .beneficios{
+    margin-top: 20px;
   }
   .img-res {
     padding-block-end: 20px;
@@ -389,13 +377,14 @@ input:active {
     flex-direction: column;
     
   }
+  
   .productos{
+    width: 250px;
+    height: 250px;
     margin: 40px;
     margin-left: 80px;
-    width: 200px;
-    height: 200px;
+  }
 
-}
 
   .cont-button {
     width: 100%;
@@ -404,8 +393,8 @@ input:active {
     align-items: center;
   }
   input {
-    height: 15px;
-    width: 55px;
+    height: 30px;
+    width: 80px;
     border: none;
     border-radius: 20%;
     background-color: #FFC8DD;
